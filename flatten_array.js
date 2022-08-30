@@ -1,5 +1,5 @@
 //Flatten an array:
-
+// the array to use
 let arr = [
 	[1,2],
 	[3,4],

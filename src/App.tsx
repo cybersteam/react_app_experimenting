@@ -2,8 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-import Footer from './Footer'
 import Header from './Header'
+import Footer from './Footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onMouseOver={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
       </div>
